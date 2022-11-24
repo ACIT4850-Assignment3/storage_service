@@ -14,6 +14,8 @@ COPY . /app
 
 EXPOSE 8091
 
+CMD python3 create_tables_mysql.py
+
 ENTRYPOINT ["python3"]
 
 CMD ["app.py"]
