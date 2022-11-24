@@ -12,7 +12,7 @@ RUN pip3 install mysql-connector-python
 
 COPY . /app
 
-EXPOSE 8090
+EXPOSE 8091
 
 ENTRYPOINT ["python3"]
 
