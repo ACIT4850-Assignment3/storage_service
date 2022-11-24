@@ -1,0 +1,2 @@
+@Library('ci_services@main') _
+python_build('storage', 'storageService', 8091)
